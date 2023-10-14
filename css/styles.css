@@ -1,0 +1,74 @@
+/* Name: Manan Makwana 
+Student Number: 8909747*/
+
+/* Part 1 */
+body {
+    width: 100%;
+    margin: 0 auto;
+    font: 16px Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Part 2 */
+header, footer {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h1, h2 {
+    color: #336699;
+    font-variant: small-caps;
+}
+
+footer p {
+    clear: both;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Part 3 */
+main {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Part 4 */
+.mainimg {
+    border: 1px solid #000;
+}
+
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Part 5 */
+ul li {
+    list-style: none;
+    line-height: 1.5;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: #336699;
+}
+
+aside a:hover {
+    color: #ff6600;
+}
